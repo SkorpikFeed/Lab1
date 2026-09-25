@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ex="http://example.org/myMysic/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema1="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://example.org/myMysic/song/HolyHell">
+    <rdf:type rdf:resource="http://schema.org/MusicRecording"/>
+    <schema1:inAlbum rdf:resource="http://example.org/myMysic/album/HolyHell"/>
+    <schema1:genre rdf:resource="http://example.org/myMysic/genre/Metalcore"/>
+    <schema1:name>Holy Hell</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/myMysic/album/Transmissions">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+    <schema1:byArtist rdf:resource="http://example.org/myMysic/artist/Starset"/>
+    <ex:releasedIn rdf:resource="http://example.org/myMysic/year/2014"/>
+    <schema1:name>Transmissions</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/myMysic/album/Vessels">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+    <schema1:byArtist rdf:resource="http://example.org/myMysic/artist/Starset"/>
+    <ex:releasedIn rdf:resource="http://example.org/myMysic/year/2017"/>
+    <schema1:name>Vessels</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/myMysic/album/Daybreaker">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+    <schema1:byArtist rdf:resource="http://example.org/myMysic/artist/Architects"/>
+    <ex:releasedIn rdf:resource="http://example.org/myMysic/year/2012"/>
+    <schema1:name>Daybreaker</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/myMysic/genre/Rock">
+    <rdf:type rdf:resource="http://example.org/myMysic/MusicGenre"/>
+    <schema1:name>Rock</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/myMysic/album/HolyHell">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+    <schema1:byArtist rdf:resource="http://example.org/myMysic/artist/Architects"/>
+    <ex:releasedIn rdf:resource="http://example.org/myMysic/year/2018"/>
+    <schema1:name>Holy Hell</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/myMysic/genre/Metalcore">
+    <rdf:type rdf:resource="http://example.org/myMysic/MusicGenre"/>
+    <schema1:name>Metalcore</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/myMysic/song/Disappear">
+    <rdf:type rdf:resource="http://schema.org/MusicRecording"/>
+    <schema1:inAlbum rdf:resource="http://example.org/myMysic/album/Horizons"/>
+    <schema1:genre rdf:resource="http://example.org/myMysic/genre/Rock"/>
+    <schema1:name>Disappear</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/myMysic/artist/ImagineDragons">
+    <rdf:type rdf:resource="http://schema.org/MusicGroup"/>
+    <schema1:name>Imagine Dragons</schema1:name>
+    <schema1:location rdf:resource="http://example.org/myMysic/country/USA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/myMysic/song/Believer">
+    <rdf:type rdf:resource="http://schema.org/MusicRecording"/>
+    <schema1:inAlbum rdf:resource="http://example.org/myMysic/album/Evolve"/>
+    <schema1:genre rdf:resource="http://example.org/myMysic/genre/Rock"/>
+    <schema1:name>Believer</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/myMysic/artist/Starset">
+    <rdf:type rdf:resource="http://schema.org/MusicGroup"/>
+    <schema1:name>Starset</schema1:name>
+    <schema1:location rdf:resource="http://example.org/myMysic/country/USA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/myMysic/album/Evolve">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+    <schema1:byArtist rdf:resource="http://example.org/myMysic/artist/ImagineDragons"/>
+    <ex:releasedIn rdf:resource="http://example.org/myMysic/year/2017"/>
+    <schema1:name>Evolve</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/myMysic/song/Satellite">
+    <rdf:type rdf:resource="http://schema.org/MusicRecording"/>
+    <schema1:inAlbum rdf:resource="http://example.org/myMysic/album/Vessels"/>
+    <schema1:genre rdf:resource="http://example.org/myMysic/genre/Rock"/>
+    <schema1:name>Satellite</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/myMysic/artist/Architects">
+    <rdf:type rdf:resource="http://schema.org/MusicGroup"/>
+    <schema1:name>Architects</schema1:name>
+    <schema1:location rdf:resource="http://example.org/myMysic/country/UK"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/myMysic/year/2014">
+    <rdf:type rdf:resource="http://example.org/myMysic/Year"/>
+    <schema1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/myMysic/year/2021">
+    <rdf:type rdf:resource="http://example.org/myMysic/Year"/>
+    <schema1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2021</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/myMysic/song/MyDemons">
+    <rdf:type rdf:resource="http://schema.org/MusicRecording"/>
+    <schema1:inAlbum rdf:resource="http://example.org/myMysic/album/Transmissions"/>
+    <schema1:genre rdf:resource="http://example.org/myMysic/genre/Rock"/>
+    <schema1:name>My Demons</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/myMysic/song/Natural">
+    <rdf:type rdf:resource="http://schema.org/MusicRecording"/>
+    <schema1:inAlbum rdf:resource="http://example.org/myMysic/album/Origins"/>
+    <schema1:genre rdf:resource="http://example.org/myMysic/genre/Rock"/>
+    <schema1:name>Natural</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/myMysic/album/Origins">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+    <schema1:byArtist rdf:resource="http://example.org/myMysic/artist/ImagineDragons"/>
+    <ex:releasedIn rdf:resource="http://example.org/myMysic/year/2018"/>
+    <schema1:name>Origins</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/myMysic/year/2018">
+    <rdf:type rdf:resource="http://example.org/myMysic/Year"/>
+    <schema1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/myMysic/country/UK">
+    <rdf:type rdf:resource="http://schema.org/Country"/>
+    <schema1:name>UK</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/myMysic/country/USA">
+    <rdf:type rdf:resource="http://schema.org/Country"/>
+    <schema1:name>USA</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/myMysic/year/2012">
+    <rdf:type rdf:resource="http://example.org/myMysic/Year"/>
+    <schema1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/myMysic/song/Doomsday">
+    <rdf:type rdf:resource="http://schema.org/MusicRecording"/>
+    <schema1:inAlbum rdf:resource="http://example.org/myMysic/album/HolyHell"/>
+    <schema1:genre rdf:resource="http://example.org/myMysic/genre/Metalcore"/>
+    <schema1:name>Doomsday</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/myMysic/album/Horizons">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+    <schema1:byArtist rdf:resource="http://example.org/myMysic/artist/Starset"/>
+    <ex:releasedIn rdf:resource="http://example.org/myMysic/year/2021"/>
+    <schema1:name>Horizons</schema1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/myMysic/year/2017">
+    <rdf:type rdf:resource="http://example.org/myMysic/Year"/>
+    <schema1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</schema1:name>
+  </rdf:Description>
+</rdf:RDF>
