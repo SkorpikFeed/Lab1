@@ -1,116 +1,117 @@
 @prefix ex: <http://example.org/myMysic/> .
-@prefix schema1: <http://schema.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://example.org/myMysic/album/Daybreaker> a schema1:MusicAlbum ;
+<http://example.org/myMysic/album/Daybreaker> a schema:MusicAlbum ;
     ex:releasedIn <http://example.org/myMysic/year/2012> ;
-    schema1:byArtist <http://example.org/myMysic/artist/Architects> ;
-    schema1:name "Daybreaker" .
+    schema:byArtist <http://example.org/myMysic/artist/Architects> ;
+    schema:name "Daybreaker" .
 
-<http://example.org/myMysic/song/Believer> a schema1:MusicRecording ;
-    schema1:genre <http://example.org/myMysic/genre/Rock> ;
-    schema1:inAlbum <http://example.org/myMysic/album/Evolve> ;
-    schema1:name "Believer" .
+<http://example.org/myMysic/song/Believer> a schema:MusicRecording ;
+    schema:genre <http://example.org/myMysic/genre/Rock> ;
+    schema:inAlbum <http://example.org/myMysic/album/Evolve> ;
+    schema:name "Believer" .
 
-<http://example.org/myMysic/song/Disappear> a schema1:MusicRecording ;
-    schema1:genre <http://example.org/myMysic/genre/Rock> ;
-    schema1:inAlbum <http://example.org/myMysic/album/Horizons> ;
-    schema1:name "Disappear" .
+<http://example.org/myMysic/song/Disappear> a schema:MusicRecording ;
+    schema:genre <http://example.org/myMysic/genre/Rock> ;
+    schema:inAlbum <http://example.org/myMysic/album/Horizons> ;
+    schema:name "Disappear" .
 
-<http://example.org/myMysic/song/Doomsday> a schema1:MusicRecording ;
-    schema1:genre <http://example.org/myMysic/genre/Metalcore> ;
-    schema1:inAlbum <http://example.org/myMysic/album/HolyHell> ;
-    schema1:name "Doomsday" .
+<http://example.org/myMysic/song/Doomsday> a schema:MusicRecording ;
+    schema:genre <http://example.org/myMysic/genre/Metalcore> ;
+    schema:inAlbum <http://example.org/myMysic/album/HolyHell> ;
+    schema:name "Doomsday" .
 
-<http://example.org/myMysic/song/HolyHell> a schema1:MusicRecording ;
-    schema1:genre <http://example.org/myMysic/genre/Metalcore> ;
-    schema1:inAlbum <http://example.org/myMysic/album/HolyHell> ;
-    schema1:name "Holy Hell" .
+<http://example.org/myMysic/song/HolyHell> a schema:MusicRecording ;
+    schema:genre <http://example.org/myMysic/genre/Metalcore> ;
+    schema:inAlbum <http://example.org/myMysic/album/HolyHell> ;
+    schema:name "Holy Hell" .
 
-<http://example.org/myMysic/song/MyDemons> a schema1:MusicRecording ;
-    schema1:genre <http://example.org/myMysic/genre/Rock> ;
-    schema1:inAlbum <http://example.org/myMysic/album/Transmissions> ;
-    schema1:name "My Demons" .
+<http://example.org/myMysic/song/MyDemons> a schema:MusicRecording ;
+    schema:genre <http://example.org/myMysic/genre/Rock> ;
+    schema:inAlbum <http://example.org/myMysic/album/Transmissions> ;
+    schema:name "My Demons" .
 
-<http://example.org/myMysic/song/Natural> a schema1:MusicRecording ;
-    schema1:genre <http://example.org/myMysic/genre/Rock> ;
-    schema1:inAlbum <http://example.org/myMysic/album/Origins> ;
-    schema1:name "Natural" .
+<http://example.org/myMysic/song/Natural> a schema:MusicRecording ;
+    schema:genre <http://example.org/myMysic/genre/Rock> ;
+    schema:inAlbum <http://example.org/myMysic/album/Origins> ;
+    schema:name "Natural" .
 
-<http://example.org/myMysic/song/Satellite> a schema1:MusicRecording ;
-    schema1:genre <http://example.org/myMysic/genre/Rock> ;
-    schema1:inAlbum <http://example.org/myMysic/album/Vessels> ;
-    schema1:name "Satellite" .
+<http://example.org/myMysic/song/Satellite> a schema:MusicRecording ;
+    schema:genre <http://example.org/myMysic/genre/Rock> ;
+    schema:inAlbum <http://example.org/myMysic/album/Vessels> ;
+    schema:name "Satellite" .
 
-<http://example.org/myMysic/album/Evolve> a schema1:MusicAlbum ;
+<http://example.org/myMysic/album/Evolve> a schema:MusicAlbum ;
     ex:releasedIn <http://example.org/myMysic/year/2017> ;
-    schema1:byArtist <http://example.org/myMysic/artist/ImagineDragons> ;
-    schema1:name "Evolve" .
+    schema:byArtist <http://example.org/myMysic/artist/ImagineDragons> ;
+    schema:name "Evolve" .
 
-<http://example.org/myMysic/album/Horizons> a schema1:MusicAlbum ;
+<http://example.org/myMysic/album/Horizons> a schema:MusicAlbum ;
     ex:releasedIn <http://example.org/myMysic/year/2021> ;
-    schema1:byArtist <http://example.org/myMysic/artist/Starset> ;
-    schema1:name "Horizons" .
+    schema:byArtist <http://example.org/myMysic/artist/Starset> ;
+    schema:name "Horizons" .
 
-<http://example.org/myMysic/album/Origins> a schema1:MusicAlbum ;
+<http://example.org/myMysic/album/Origins> a schema:MusicAlbum ;
     ex:releasedIn <http://example.org/myMysic/year/2018> ;
-    schema1:byArtist <http://example.org/myMysic/artist/ImagineDragons> ;
-    schema1:name "Origins" .
+    schema:byArtist <http://example.org/myMysic/artist/ImagineDragons> ;
+    schema:name "Origins" .
 
-<http://example.org/myMysic/album/Transmissions> a schema1:MusicAlbum ;
+<http://example.org/myMysic/album/Transmissions> a schema:MusicAlbum ;
     ex:releasedIn <http://example.org/myMysic/year/2014> ;
-    schema1:byArtist <http://example.org/myMysic/artist/Starset> ;
-    schema1:name "Transmissions" .
+    schema:byArtist <http://example.org/myMysic/artist/Starset> ;
+    schema:name "Transmissions" .
 
-<http://example.org/myMysic/album/Vessels> a schema1:MusicAlbum ;
+<http://example.org/myMysic/album/Vessels> a schema:MusicAlbum ;
     ex:releasedIn <http://example.org/myMysic/year/2017> ;
-    schema1:byArtist <http://example.org/myMysic/artist/Starset> ;
-    schema1:name "Vessels" .
+    schema:byArtist <http://example.org/myMysic/artist/Starset> ;
+    schema:name "Vessels" .
 
-<http://example.org/myMysic/country/UK> a schema1:Country ;
-    schema1:name "UK" .
+<http://example.org/myMysic/country/UK> a schema:Country ;
+    schema:name "UK" .
 
 <http://example.org/myMysic/year/2012> a ex:Year ;
-    schema1:name 2012 .
+    schema:name 2012 .
 
 <http://example.org/myMysic/year/2014> a ex:Year ;
-    schema1:name 2014 .
+    schema:name 2014 .
 
 <http://example.org/myMysic/year/2021> a ex:Year ;
-    schema1:name 2021 .
+    schema:name 2021 .
 
-<http://example.org/myMysic/album/HolyHell> a schema1:MusicAlbum ;
+<http://example.org/myMysic/album/HolyHell> a schema:MusicAlbum ;
     ex:releasedIn <http://example.org/myMysic/year/2018> ;
-    schema1:byArtist <http://example.org/myMysic/artist/Architects> ;
-    schema1:name "Holy Hell" .
+    schema:byArtist <http://example.org/myMysic/artist/Architects> ;
+    schema:name "Holy Hell" .
 
-<http://example.org/myMysic/artist/Architects> a schema1:MusicGroup ;
-    schema1:location <http://example.org/myMysic/country/UK> ;
-    schema1:name "Architects" .
+<http://example.org/myMysic/artist/Architects> a schema:MusicGroup ;
+    schema:location <http://example.org/myMysic/country/UK> ;
+    schema:name "Architects" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q620454> .
 
-<http://example.org/myMysic/artist/ImagineDragons> a schema1:MusicGroup ;
-    schema1:location <http://example.org/myMysic/country/Moon> ;
-    schema1:name "Imagine Dragons" .
+<http://example.org/myMysic/artist/ImagineDragons> a schema:MusicGroup ;
+    schema:location <http://example.org/myMysic/country/USA> ;
+    schema:name "Imagine Dragons" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q391348> .
 
-<http://example.org/myMysic/country/USA> a schema1:Country ;
-    schema1:name "USA" .
-
-<http://example.org/myMysic/country/Moon> a schema1:Country ;
-    schema1:name "Moon" .
+<http://example.org/myMysic/country/USA> a schema:Country ;
+    schema:name "USA" .
 
 <http://example.org/myMysic/genre/Metalcore> a ex:MusicGenre ;
-    schema1:name "Metalcore" .
+    schema:name "Metalcore" .
 
 <http://example.org/myMysic/year/2017> a ex:Year ;
-    schema1:name 2017 .
+    schema:name 2017 .
 
 <http://example.org/myMysic/year/2018> a ex:Year ;
-    schema1:name 2018 .
+    schema:name 2018 .
 
-<http://example.org/myMysic/artist/Starset> a schema1:MusicGroup ;
-    schema1:location <http://example.org/myMysic/country/USA> ;
-    schema1:name "Starset" .
+<http://example.org/myMysic/artist/Starset> a schema:MusicGroup ;
+    schema:location <http://example.org/myMysic/country/USA> ;
+    schema:name "Starset" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q17386735> .
 
 <http://example.org/myMysic/genre/Rock> a ex:MusicGenre ;
-    schema1:name "Rock" .
+    schema:name "Rock" .
 
